@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500|Ranchers');
+
+body{
+     font-family: 'Raleway', sans-serif;
+     margin:0;
+     padding: 0;
+     text-align: center
+}
+
+
+#topNavbar .navbar-brand{
+    color: Navy;
+    font-family: 'Ranchers', cursive;
+    font-size: 1.8rem;
+}
+
+
+
+
+#topNavbar .nav-link{
+   
+}
+
+
+
+h1{
+    font-family: 'Ranchers', cursive;
+    font-weight: 900;
+    /* font-family: 'Raleway', sans-serif;*/
+}
+
+.monkeesText{
+     font-family: 'Ranchers', cursive;
+     font-weight: 700;
+     text-align: center;
+}
+
+
+
+social{
+    list-style-type: none;
+}
