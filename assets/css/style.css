@@ -8,16 +8,26 @@ body{
 }
 
 
-#topNavbar .navbar-brand{
-    color: Navy;
+
+#navbarTop .navbar-light .navbar-brand {
+
+    color: navy;
     font-family: 'Ranchers', cursive;
-    font-size: 1.8rem;
+    font-size: 3rem;
 }
 
 
 
 
-#topNavbar .nav-link{
+#navbarTop .nav-link{
+    
+    color: black;
+   
+}
+
+#navbarTop .nav-link:hover{
+    
+    color: grey;
    
 }
 
@@ -37,6 +47,3 @@ h1{
 
 
 
-social{
-    list-style-type: none;
-}
