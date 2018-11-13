@@ -4,46 +4,82 @@ body{
      font-family: 'Raleway', sans-serif;
      margin:0;
      padding: 0;
-     text-align: center
+     text-align: center;
+     background: pink;
 }
 
+.navbar {
+    background-color:rgb(22,50,80);
+}
 
-
-#navbarTop .navbar-light .navbar-brand {
-
-    color: navy;
+#topNavbar .navbar-brand{
+    font-size: 2rem;
     font-family: 'Ranchers', cursive;
-    font-size: 3rem;
 }
 
 
-
-
-#navbarTop .nav-link{
+#topNavbar .nav-link{
     
-    color: black;
-   
+    color: #fafafa;
+    font-family: 'Raleway', sans-serif;
+
 }
 
-#navbarTop .nav-link:hover{
-    
-    color: grey;
-   
+#topNavbar .nav-link:hover{
+
+    color: rgb(192, 176, 176);
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
 }
 
 
+.centralColor{
+    background: rgb(67,128,180);
+ 
+}
 
 h1{
     font-family: 'Ranchers', cursive;
     font-weight: 900;
-    /* font-family: 'Raleway', sans-serif;*/
+  
 }
 
-.monkeesText{
-     font-family: 'Ranchers', cursive;
-     font-weight: 700;
-     text-align: center;
+.section-header{
+    padding: 2rem 0rem;
+
 }
 
 
+.social-links{
+    width: 35px;
+    height: 35px;
+    padding: 14px 0;
+    border-radius: 50%;
+    font-size: 19px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: rgb(22,50,80);
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
 
+.social-links:hover{
+    background: rgb(192, 176, 176);
+}
+
+.rowColor1{
+    background: #e6f2ff;
+}
+
+.rowColor2{
+    background: #b3d9ff;
+}
+
+.overlay{
+    background-color: rgba(67,128,180, 0.8)
+}
