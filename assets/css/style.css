@@ -88,3 +88,11 @@ h1{
     width: 5em;
     height:5em;
 }
+
+
+.musicDivider {
+  margin-top: 0em;
+  background-color: purple;
+  width: 100%;
+  height: 12px;
+}
