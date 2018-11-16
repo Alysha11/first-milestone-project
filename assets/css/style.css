@@ -104,6 +104,20 @@ h1{
 }
 
 .rounded-border-top { 
-    border-top-left-radius: 3em;
-    border-top-right-radius: 3em;
+    border-top-left-radius: 3.25em;
+    border-top-right-radius: 3.25em;
 }
+
+
+
+
+@media (max-width: 1200px) {
+     audio {
+        width: 250px;
+    
+    }
+   
+}
+
+
+
