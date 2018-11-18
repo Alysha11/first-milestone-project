@@ -1,30 +1,36 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500|Ranchers');
 
-body{
-     font-family: 'Raleway', sans-serif;
-     margin:0;
-     padding: 0;
-     text-align: center;
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #b3d9ff;
 }
+
+
+/*--------------------------------------------Navbar*/
+
 
 .navbar {
-    background-color:rgb(22,50,80);
+    background-color: #003F87;
 }
 
-#topNavbar .navbar-brand{
+#topNavbar .navbar-brand {
     font-size: 2rem;
     font-family: 'Ranchers', cursive;
 }
 
 
-#topNavbar .nav-link{
-    
+#topNavbar .nav-link {
+
     color: #fafafa;
     font-family: 'Raleway', sans-serif;
+    font-size: 1.2em;
 
 }
 
-#topNavbar .nav-link:hover{
+#topNavbar .nav-link:hover {
 
     color: rgb(192, 176, 176);
     transition: all 0.35s ease-in-out;
@@ -33,25 +39,121 @@ body{
     -o-transition: all 0.35s ease-in-out;
 }
 
+/*--------------------------------------------Banner*/
 
-.centralColor{
-    background: rgb(67,128,180);
- 
+.banner {
+
+    background: #e6f2ff;
+    color: rgb(22, 50, 80);
+
 }
 
-h1{
-    font-family: 'Ranchers', cursive;
-    font-weight: 900;
-  
-}
 
-.section-header{
+.banner h1 {
     padding: 2rem 0rem;
-
+    font-family: Ranchers;
 }
 
 
-.social-links{
+
+.banner p {
+    font-weight: 400;
+    font-size: 1.3em;
+}
+
+
+/*--------------------------------------------Colors*/
+
+.rowColor1 {
+    background: #e6f2ff;
+}
+
+.rowColor2 {
+    background: #b3d9ff;
+}
+
+#grad1 {
+    height: 100%;
+    width: 100%;
+    background-color: #b3d9ff;
+    /* For browsers that do not support gradients */
+    background-image: repeating-radial-gradient(blue, red 10%, white 15%);
+    margin: 0;
+    padding: 0;
+}
+
+
+/*--------------------------------------------Music*/
+
+.albums {
+    background: rgb(67, 128, 180);
+    color: #fafafa;
+    font-weight: 400;
+    font-size: 1.2em;
+}
+
+
+
+
+/*--------------------------------------------Dividers*/
+
+.flower-divider {
+    width: 5em;
+    height: 5em;
+}
+
+
+.musicDivider {
+    margin-top: 0em;
+    background-color: rgb(67, 128, 180);
+    width: 100%;
+    height: 0.5em;
+}
+
+
+/*--------------------------------------------News Cards*/
+
+.rounded-border {
+
+    border-radius: 3.25rem;
+    width: 20rem;
+
+}
+
+.rounded-border-top {
+    border-top-left-radius: 3.25rem;
+    border-top-right-radius: 3.25rem;
+}
+
+.imgEffect {
+    overflow: hidden;
+}
+
+.imgEffect img {
+    transition: all 1.5s ease;
+}
+
+
+.imgEffect:hover img {
+    transform: scale(1.5);
+}
+
+/*--------------------------------------------Bookings*/
+
+button[type="submit"] {
+    margin-top: 1em;
+    margin-bottom: 1.5em;
+    background-color: #0276FD;
+    color: #fafafa;
+}
+
+button:hover {
+    background-color: #003F87;
+}
+
+/*--------------------------------------------Footer*/
+
+.social-links {
     width: 35px;
     height: 35px;
     padding: 14px 0;
@@ -60,76 +162,26 @@ h1{
     line-height: 7px;
     text-align: center;
     color: #fafafa;
-    background: rgb(22,50,80);
+    background: rgb(22, 50, 80);
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
 }
 
-.social-links:hover{
+.social-links:hover {
     background: rgb(192, 176, 176);
 }
 
-.rowColor1{
-    background: #e6f2ff;
-}
-
-.rowColor2{
-    background: #b3d9ff;
-}
-
-.overlay{
-    background-color: rgba(67,128,180, 0.8)
-}
-
-.flower-divider{
-    width: 5em;
-    height:5em;
-}
 
 
-.musicDivider {
-  margin-top: 0em;
-  background-color: purple;
-  width: 100%;
-  height: 12px;
-}
-
-.rounded-border{
-    
-    border-radius: 3.25rem;
-    width: 20rem;
-    
-}
-
-.rounded-border-top { 
-    border-top-left-radius: 3.25rem;
-    border-top-right-radius: 3.25rem;
-}
-
-.imgEffect{
-    overflow: hidden;
-}
-
-.imgEffect img{
-    transition: all 1.5s ease;
-}
-
-
-imgEffect:hover img {
-    transform: scale(1.5);
-}
-
-
+/*--------------------------------------------Media Queries*/
 
 @media (max-width: 1200px) {
-     audio {
+    audio {
         width: 250px;
-    
+
     }
-   
+
 }
-
-
 
