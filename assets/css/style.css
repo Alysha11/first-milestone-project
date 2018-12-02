@@ -49,7 +49,8 @@ body {
 
 
 .banner h1 {
-    padding: 2rem 0rem;
+    margin-top: 3rem;
+    padding: 1rem 0rem;
     font-family: Ranchers;
 }
 
@@ -83,11 +84,15 @@ body {
 
 /*--------------------------------------------About*/
 
-.container-about{
-    padding:0;
-    margin-top: 2rem;
+.band-members {
+    margin-top: 1em;
+
 }
 
+.band-members h2 {
+    font-size: 1.4em;
+    letter-spacing: 0.4em;
+}
 
 
 /*--------------------------------------------Music*/
@@ -123,6 +128,8 @@ body {
 
     border-radius: 3.25rem;
     width: 20rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
 
 }
 
@@ -189,18 +196,15 @@ button:hover {
 
 /*--------------------------------------------Media Queries*/
 
-@media (min-width: 992px) {
-    .audios {
-        width: 240px;
+/*------------------------------------About Band*/
+
+@media(min-width: 992px) {
+    .container-about {
+        padding: 0;
+        margin-top: 2rem;
     }
 }
 
-
-@media (min-width: 1200px) {
-    .audios {
-        width: 300px;
-    }
-}
 
 
 @media (min-width: 992px) {
@@ -213,4 +217,23 @@ button:hover {
 
     }
 
+}
+
+
+
+
+
+/*--------------------------Music Audio Players*/
+
+@media (min-width: 992px) {
+    .audios {
+        width: 240px;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .audios {
+        width: 300px;
+    }
 }
