@@ -64,25 +64,27 @@ Potential client:
 
 Based on the needs of the business and the target audience created a website that contains:
 
-1. A showcase of the music. The ‘music’ page which contains:
+1. A showcase of the music. 
 
-* Discography
+The ‘music’ page which contains:
 
-* Audio clips
+   * Discography
 
-* Videos
+   * Audio clips
+
+   * Videos
 
 2. Info on the band
 
-* An ‘about’ section
+      * An ‘about’ section
 
-* A ‘news’ section to publicise latest information
+      * A ‘news’ section to publicise latest information
 
-* Social links
+      * Social links
 
 3. A place to dedicated to the band’s availability to perform at events in the form of the ‘bookings’ page:
 
-* A contact form
+   * A contact form
 
 4. A nod to the 1960s in regards to aesthetics
 
