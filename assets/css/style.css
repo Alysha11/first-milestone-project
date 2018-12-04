@@ -96,6 +96,11 @@ body {
     font-weight: 600;
 }
 
+.band-members p {
+    line-height: 1.5;
+    font-weight: 500;
+}
+
 
 /*--------------------------------------------Music*/
 
@@ -106,7 +111,7 @@ body {
     font-size: 1.2em;
 }
 
-.musicHeader{
+.musicHeader {
     letter-spacing: 1rem;
 }
 
@@ -223,8 +228,6 @@ button:hover {
     }
 
 }
-
-
 
 
 
