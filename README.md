@@ -68,11 +68,11 @@ Based on the needs of the business and the target audience created a website tha
 
 The ‘music’ page which contains:
 
-   * Discography
+    * Discography
 
-   * Audio clips
+    * Audio clips
 
-   * Videos
+    * Videos
 
 2. Info on the band
 
@@ -84,7 +84,7 @@ The ‘music’ page which contains:
 
 3. A place to dedicated to the band’s availability to perform at events in the form of the ‘bookings’ page:
 
-   * A contact form
+    * A contact form
 
 4. A nod to the 1960s in regards to aesthetics
 
@@ -120,7 +120,7 @@ The navigation is a simple hamburger style dropdown on the top right of mobile v
 
 *Desktop*
 
-The navigation runs across the top right of the screen with the branding to the top left. Both are more centred and larger than default Bootstrap as the uthe intention is to draw users eyes the attractive branding. On hover the navigation options turns grey so that the user is clear where they are pointing to. The navigation bar also has a fixed position which adds to the ease of use for user’s never having to scroll to reach the navigation menu.
+The navigation runs across the top right of the screen with the branding to the top left. Both are more centred and larger than default Bootstrap as the uthe intention is to draw users eyes the attractive branding. On hover the navigation options turn grey so that the user is clear where they are pointing to. The navigation bar also has a fixed position which adds to the ease of use for user’s never having to scroll to reach the navigation menu.
 
  
 
@@ -143,13 +143,13 @@ At the bottom of all the pages there is a red flower image that was used as anot
  
 *Social Links*
 
-Facebook, YouTube and Twitter Font Awesome icons are used at the bottom of the page allowing users links to the social pages easily. The social icons link to the bands official social accounts on Facebook, YouTube and Twitter.
+Facebook, YouTube and Twitter are present as requested in the brief. The Font Awesome icons for these brands are used at the bottom of the page allowing users links to the social pages easily. The social icons link to the bands official social accounts.
 
  
 
 **About Page**
 
-Here is where users can learn more about the band members. The styling is bold with alternating row colours to clearly separate the band members. In the desktop version users see alternating text first, photo first on each row and a shadow effect is used to have this whole section stand out from the background.  These styling choices add interest for the user in an otherwise potentially text heavy page.
+Here is where users learn more about the band members. The styling is bold with alternating row colours to clearly separate the band members. In the desktop version users see alternating text first, photo first on each row and a shadow effect is used to have this whole section stand out from the background.  These styling choices add interest for the user in an otherwise potentially text heavy page.
 
  
 
@@ -223,19 +223,15 @@ Reflecting back on the user stories I tested to ensure all uses would be met whi
 
 _established fan_ can listen to favourite hits with the audio players included in the music page, they have a dedicated page to news that is eye catching and clearly dated so can tell that they are seeing regularly updated articles, and they have working links to social media on all pages.
 
-_new fan_ has an attractive discography to view working on different screen sizes, it includes the title and release year of each album. They also enjoy visuals that provide a nod to the 1960s –flower divider, font style and background on home page.
+_new fan_ has an attractive discography to view working on different screen sizes, it includes the title and release year of each album. They also enjoy visuals that provide a nod to the 1960s –flower divider, font style, bold seperation on colour and the gradient background on the home page.
 
 _potential client_ will find the pages are professional looking and the booking form simple and easy to use with the validation working reminding user in the case of errors. They are also given success feedback once submitted. 
 
  
-
-Apart from my own tests I also sought the opinion of a couple of friends who provided positive feedback.
-
+Apart from my own tests I also sought the opinion of a couple of friends and fellow Code Institute students who provided positive feedback. Through it was pointed out that not all the album cards on the music page were uniform in size as the background colour wraped itself around the text which varied in length. The different sizes looked ok for me but i decided to go with uniformity as a result of the comment and i added a fixed height to this section on the album covers. 
  
 
 **Process**
-
- 
 
 1. Code was tested using W3C markup validation and W3C Jigsaw CSS validation.
 
@@ -266,7 +262,7 @@ _One difficulty I came across was with the audio players. On a smaller desktop s
 7. Tested the booking form contained correct validation by leaving input(s) empty, by trying incorrect input of email and finally by completing correctly and checking that I was directed to feedback info once submitted.
 
 
-Results were put in a table and can be seen [Here](https://github.com/Alysha11/first-milestone-project/blob/master/other/testingSpreadsheet.xlsx).
+Results of the tests were put in a table and can be seen [Here](https://github.com/Alysha11/first-milestone-project/blob/master/other/testingSpreadsheet.xlsx).
 
  
 
@@ -275,7 +271,6 @@ Results were put in a table and can be seen [Here](https://github.com/Alysha11/f
 Deployed via Github Pages and can be viewed here: https://alysha11.github.io/first-milestone-project/
 
  
-
 _after deployment I discovered that my audio files stopped playing and that the images on the news articles were not displaying. To rectify this I removed the root /_
 
  
@@ -315,7 +310,7 @@ News articles link directly to specified articles. They are drawn from:
 
 ### Acknowledgements
 
-- To resize flower image used as a favicon.  [Favicon Generator]( https://www.favicon-generator.org/)
+- To resize flower image used as a favicon the following was used:  [Favicon Generator]( https://www.favicon-generator.org/)
 
 -  Direction on creating circular social icons came from the User Centric Development mini project video (part of the Code Institute course).
 
