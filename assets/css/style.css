@@ -105,7 +105,7 @@ body {
 /*--------------------------------------------Music*/
 
 .albums {
-    height:5em;
+    height: 5.5em;
     background: #003F87;
     color: #fafafa;
     font-weight: 400;
@@ -114,6 +114,7 @@ body {
 
 .musicHeader {
     letter-spacing: 1rem;
+    font-size: 1.5em;
 }
 
 /*--------------------------------------------Dividers*/
@@ -125,10 +126,11 @@ body {
 
 
 .musicDivider {
-    border-top: 0.4em solid #ffe28a;
+    background-color: #ffe28a;
+    height: 0.5em;
     margin-top: 1em;
     margin-bottom: 4em;
-    width: 100%;
+    width: 20%;
 }
 
 

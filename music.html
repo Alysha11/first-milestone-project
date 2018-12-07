@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" type="text/css" />
   <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
@@ -18,9 +18,9 @@
   <nav id="topNavbar" class="navbar navbar-dark  navbar-expand-lg py-0 fixed-top border-bottom">
     <div class="container">
       <a class="navbar-brand brand-centered" href="index.html">
-                <img src="assets/images/red-flower.png" width="35" height="35" class="d-inline-block align-top" alt="red-flower">
-                <span class = "logo mb-0 h1">The Monkees</span>
-            </a>
+           <img src="assets/images/red-flower.png" width="35" height="35" class="d-inline-block align-top" alt="red-flower">
+            <span class = "logo mb-0 h1">The Monkees</span>
+        </a>
       <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -51,7 +51,7 @@
   <!-- Header Section-->
   <header>
     <div class="container-fluid mt-5 px-0">
-      <div class="row justify-content-center banner">
+      <div class="row justify-content-center banner px-0">
         <div class="col">
           <h1 class="section-header"><i class="fas fa-music"></i> Music</h1>
           <p>Dedicated to our music. Discover, listen, watch and most importantly enjoy.</p>
@@ -62,15 +62,17 @@
 
   <!-- Header End-->
   <!--Content Discography Section-->
-  <section>
+
+
+  <section class="container-fluid px-0">
+    <div class="row text-center">
+      <div class="col mt-4">
+        <h2 class="musicHeader">Discography</h2>
+      </div>
+    </div>
     <div class="album py-5">
-      <div class="container">
+      <div class="container pr-0">
         <div class="row text-center">
-          <div class="col">
-            <h2 class="musicHeader">Discography</h2>
-          </div>
-        </div>
-        <div class="row">
           <div class="col-md-4">
             <div class="card mb-4 shadow-sm h-90 w-90">
               <img class="card-img-top" src="assets/images/the-monkees-album1.jpg" alt="cover of Monkees first Album -'The Monkees'">
@@ -149,44 +151,45 @@
   </section>
 
   <!--Content  Discography Section End-->
-  <div class="musicDivider"></div>
+  <hr class="musicDivider">
 
 
   <!-- Content Audio Section-->
-  <section class="audio">
-    <div class="row text-center">
-      <div class="col mb-4">
-        <h2 class="musicHeader">Audio</h2>
+
+  <section class="audio container-fluid px-0" ">
+    <div class="row text-center ">
+      <div class="col mb-4 ">
+        <h2 class="musicHeader ">Audio</h2>
       </div>
     </div>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-lg-3">
-          <audio controls class="audios">
-             <source src="assets/band-assets/audio/Clarksville.mp3" type="audio/mp3">
+    <div class="container-fluid ">
+      <div class="row ">
+        <div class="col-lg-3 ">
+          <audio controls class="audios ">
+             <source src="assets/band-assets/audio/Clarksville.mp3 " type="audio/mp3 ">
              </audio>
           <p>Clarksville</p>
         </div>
 
-        <div class="col-lg-3">
-          <audio controls class="audios">
-             <source src="assets/band-assets/audio/DaydreamBeliever.mp3" type="audio/mp3">
+        <div class="col-lg-3 ">
+          <audio controls class="audios ">
+             <source src="assets/band-assets/audio/DaydreamBeliever.mp3 " type="audio/mp3 ">
              </audio>
           <p>Daydream Believer</p>
 
         </div>
 
-        <div class="col-lg-3">
-          <audio controls class="audios">
-             <source src="assets/band-assets/audio/ImABeliever.mp3" type="audio/mp3">
+        <div class="col-lg-3 ">
+          <audio controls class="audios ">
+             <source src="assets/band-assets/audio/ImABeliever.mp3 " type="audio/mp3 ">
            </audio>
           <p>Im a Believer</p>
         </div>
 
 
-        <div class="col-lg-3">
-          <audio controls class="audios">
-               <source src="assets/band-assets/audio/SteppingStone.mp3" type="audio/mp3">
+        <div class="col-lg-3 ">
+          <audio controls class="audios ">
+               <source src="assets/band-assets/audio/SteppingStone.mp3 " type="audio/mp3 ">
               </audio>
           <p>Stepping Stone</p>
 
@@ -196,44 +199,46 @@
   </section>
 
   <!-- Content Audio Section End-->
-  <div class="musicDivider"></div>
+  <hr class="musicDivider ">
 
 
   <!-- Content Video Section-->
-  <section class="video">
-    <div class="row text-center">
-      <div class="col mb-4">
-        <h2 class="musicHeader">Video</h2>
+  <section class= "video container-fluid pr-0 ">
+    <div class="container ">
+    <div class="row text-center ">
+      <div class="col mb-4 ">
+        <h2 class="musicHeader ">Video</h2>
       </div>
     </div>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="py-1 col-lg-4">
-          <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/videoseries?list=PLmnBeuK1hvzS338LZMZ7O6GtsWbSngJNH" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="container-fluid ">
+      <div class="row ">
+        <div class="py-1 col-lg-4 ">
+          <div class="embed-responsive embed-responsive-16by9 ">
+            <iframe class="embed-responsive-item " src="https://www.youtube.com/embed/videoseries?list=PLmnBeuK1hvzS338LZMZ7O6GtsWbSngJNH " allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture " allowfullscreen></iframe>
           </div>
         </div>
-        <div class="py-1 col-lg-4">
-          <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/AZYPlNuljHE" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="py-1 col-lg-4 ">
+          <div class="embed-responsive embed-responsive-16by9 ">
+            <iframe class="embed-responsive-item " src="https://www.youtube.com/embed/AZYPlNuljHE " allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture " allowfullscreen></iframe>
           </div>
         </div>
-        <div class="py-1 col-lg-4">
-          <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/xvqeSJlgaNk" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="py-1 col-lg-4 ">
+          <div class="embed-responsive embed-responsive-16by9 ">
+            <iframe class="embed-responsive-item " src="https://www.youtube.com/embed/xvqeSJlgaNk " allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture " allowfullscreen></iframe>
           </div>
         </div>
       </div>
+    </div>
     </div>
   </section>
 
   <!-- Content Video Section End-->
 
   <!--Flower divider Section-->
-  <figure class="container-fluid">
-    <div class="row justify-content-center centralColor">
-      <div class="col">
-        <img class=" img-fluid flower-divider" src="assets/images/red-flower.png" alt=" image of red flower">
+  <figure class="container-fluid ">
+    <div class="row justify-content-center centralColor ">
+      <div class="col ">
+        <img class=" img-fluid flower-divider " src="assets/images/red-flower.png " alt=" image of red flower ">
       </div>
     </div>
   </figure>
@@ -242,19 +247,19 @@
 
   <!--Footer/Social section -->
 
-  <footer class="container-fluid">
-    <div class="row justify-content-center pt-4">
-      <ul class="d-flex list-inline">
-        <li><a class="nav-link" target="_blank" href="https://en-gb.facebook.com/TheMonkees/"><i class="fab fa-facebook-f social-links" aria-hidden="true"></i></a></li>
-        <li><a class="nav-link" target="_blank" href="https://www.youtube.com/channel/UCv1oY0OLtsEySHeP1TkYNqA"><i class="fab fa-youtube social-links" aria-hidden="true"></i></a></li>
-        <li><a class="nav-link" target="_blank" href="https://twitter.com/themonkees?lang=en"><i class="fab fa-twitter social-links" aria-hidden="true"></i></a></li>
+  <footer class="container-fluid ">
+    <div class="row justify-content-center pt-4 ">
+      <ul class="d-flex list-inline ">
+        <li><a class="nav-link " target="_blank " href="https://en-gb.facebook.com/TheMonkees/ "><i class="fab fa-facebook-f social-links " aria-hidden="true "></i></a></li>
+        <li><a class="nav-link " target="_blank " href="https://www.youtube.com/channel/UCv1oY0OLtsEySHeP1TkYNqA "><i class="fab fa-youtube social-links " aria-hidden="true "></i></a></li>
+        <li><a class="nav-link " target="_blank " href="https://twitter.com/themonkees?lang=en "><i class="fab fa-twitter social-links " aria-hidden="true "></i></a></li>
       </ul>
     </div>
   </footer>
 
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js " integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49 " crossorigin="anonymous "></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js " integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy " crossorigin="anonymous "></script>
 
 
 </body>
